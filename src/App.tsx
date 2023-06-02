@@ -1,9 +1,12 @@
 import "./App.css";
+import { Column } from "./components";
 
 function App() {
   return (
     <div className="App">
-      <h1>Zustand Start</h1>
+      <Column state="PLANNED" />
+      <Column state="ONGOING" />
+      <Column state="DONE" />
     </div>
   );
 }
